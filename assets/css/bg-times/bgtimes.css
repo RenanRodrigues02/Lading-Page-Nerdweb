@@ -1,0 +1,23 @@
+
+.texto-bg-time{
+    position: absolute;
+    top: 1480px;
+    padding: 40px;
+    
+}
+.texto-bg-time h3{
+    font-weight: bold;
+}
+.texto-bg-time p{
+ max-width: 500px;
+ padding-top: 20px;
+ font-weight: bold;
+ letter-spacing: 1.5%;
+}
+.botao-cadastrar a{
+    position: absolute;
+    top: 1690px;
+    left:-60px;
+    
+
+}

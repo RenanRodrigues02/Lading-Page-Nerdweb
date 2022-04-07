@@ -1,0 +1,40 @@
+.patroc-texto {
+    display: flex;
+    flex-direction: column;
+}
+.patroc-texto h2 {
+    max-width: 600px;
+    padding-left: 40px;
+    font-weight: bold;
+}
+.patroc-texto h2::after{
+    content: "";
+    position: absolute;
+    display: inline-block;
+    height: 180px;
+    width: 2px;
+    top:2920px;
+    margin-left: 140px;
+    background-color: var(--cor-2);
+}
+.patroc-texto p {
+    max-width: 550px;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+.patroc-texto span{
+    font-weight: bold;
+}
+.patrocinadores{
+    display: flex;
+    gap: 40px; 
+    padding-bottom: 80px; 
+}
+.selos{
+    display: flex;
+    padding-left:50px;
+    gap:20px
+}
+.selos img{
+    width: 150px;
+}

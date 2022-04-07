@@ -1,0 +1,67 @@
+
+.intro-informacoes{
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+   
+}
+@media (max-width: 800px){
+    .intro-informacoes{
+        display: grid;
+        grid-template-columns: 1fr;
+        border: solid 1px;
+    }
+}
+.descubra h2{
+    max-width: 400px;
+    margin-left: 100px;
+    font-weight: bold;
+}
+.descubra span{
+    font-weight: bold;
+}
+.descubra h2::after{
+    content: "";
+    position: absolute;
+    display: inline-block;
+    height: 200px;
+    width: 2px;
+    top:570px;
+    margin-left: 240px;
+    background-color: var(--cor-2);
+}
+
+
+.botao{
+    margin-top:30px;
+    margin-left: 100px;
+}
+.intro-items {
+    display: flex;
+    justify-content: center;
+    padding-left: 100px;
+    gap:40px;
+}
+.intro-items h3,
+.intro-items span{
+    font-weight: bold;
+}
+
+.intro-items img {
+    width: 130px;
+   
+}
+.intro-items h3 {
+    padding-left: 30px;
+}
+.intro-items h3::before {
+    content: "";
+    display: inline-block;
+    height: 6px;
+    width: 10px;
+    margin-right: 6px;
+    background-color: var(--cor-2);
+}
+
+

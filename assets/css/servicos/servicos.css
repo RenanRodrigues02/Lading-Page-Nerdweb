@@ -1,0 +1,38 @@
+.servicos-container {
+    padding-top: 80px;
+}
+
+.servicos-container h2 {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+.servicos-container h3 {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 40px ;
+}
+.servicos-cards img {
+    width: 320px;
+}
+.servicos-item {
+    display: flex;
+    flex-direction: column;
+}
+.servicos-cards {
+    display: flex;
+    gap:20px;
+    padding-left: 140px;
+  
+}
+.servicos-info  h3{
+    max-width: 320px;
+    padding: 10px;
+    background-color: var(--cor-11);
+}
+.servicos-info  p {
+    max-width: 320px;
+    padding: 10px;
+    background-color: var(--cor-11);
+}

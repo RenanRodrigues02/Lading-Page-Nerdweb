@@ -1,0 +1,28 @@
+.bg-conheca{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.texto-bg-conheca{
+    position: absolute;
+    top: 2480px;
+    padding: 40px;
+    
+}
+.texto-bg-conheca h3{
+    font-weight: bold;
+    max-width: 700px;
+}
+.texto-bg-conheca p{
+    max-width: 640px;
+    padding-top: 20px;
+    letter-spacing: 1.5%;
+}
+.botao-sobre a{
+    position: absolute;
+    top: 2700px;
+    left: -60px;
+    font-weight: normal;
+    letter-spacing: 2%;
+    color:var(--cor-0);
+    background-color:var(--cor-10);
+}
